@@ -23,6 +23,7 @@ export class SearchBar extends Component {
           <div className="field">
             <label>VideoSearch</label>
             <input
+              placeholder="Search"
               type="text"
               value={this.state.term}
               onChange={this.onInputChange}
